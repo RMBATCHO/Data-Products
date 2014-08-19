@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Body Mass Index Matters!</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Body Mass Index Matters!">
+  <meta name="author" content="Rolande Mbatchou">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Body Mass Index Matters!</h1>
+    <h2>Living Healthy, Staying Fit!</h2>
+    <p>Rolande Mbatchou<br/>Developing Data Products Class - John Hopkins</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Body Mass Index</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>&quot;Body Mass Index (BMI) is a number calculated from a person&#39;s weight and height. BMI is a fairly reliable indicator of body fatness for most people. BMI does not measure body fat directly, but research has shown that BMI correlates to direct measures of body fat, such as underwater weighing and dual energy x-ray absorptiometry (DXA).1, 2 BMI can be considered an alternative for direct measures of body fat.&quot; - <a href="http://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html?s_cid=tw_ob064">From Centers for Disease Control and Prevention</a></p>
+
+<p><center> <img src="http://hifitnessclub.files.wordpress.com/2013/05/visual-bmi-chart1.jpg" alt="BMI"
+width="500" height="320"/> </center></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>BMI Measures</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><center> <img src="http://25.media.tumblr.com/tumblr_lqjytohhvH1qe4sw0o1_500.jpg" width="500" height="300"/> </center></p>
+
+<p><center> <font color="darkblue"> <font size="11"> 1. Obese - BMI 30 &amp; Above </font> </font> </p>
+
+<p><center> <font color="green"> <font size="7"> 2. Overweight - BMI 25-30</font> </font></p>
+
+<p><center> <font color="purple"> <font size="6"> 3. Normal - BMI 18.5-25 </font> </font></p>
+
+<p><center> <font color="orange"> <font size="5"> 4. Underweight - BMI &lt; 18.5 </font> </font></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Your BMI Assessment</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><font color="darkblue"> 1. If you are considered &#39;Obese&#39;, by decreasing your calorie intake of non-nutritious foods (such as junk food, soda, and sugar) and exercising regularly (walk/swim/run), you can reach a &#39;Normal&#39; BMI. We recommend that you consult with a health professional to guide you before your start a diet. <a href="http://www.womenshealth.gov/publications/our-publications/fact-sheet/overweight-weight-loss.html">More tips here!</a> </font></p>
+
+<p><font color="green"> 2. If you are considered &#39;Overweight&#39;, by decreasing your calorie intake of non-nutritious foods (such as junk food, soda, and sugar) and exercising regularly (walk/swim/run), you can reach a &#39;Normal&#39; BMI. <a href="http://www.womenshealth.gov/publications/our-publications/fact-sheet/overweight-weight-loss.html">More tips here!</a> </font></p>
+
+<p><font color="purple"> 3. If you are considered &#39;Normal&#39; weight, keep on maintaining your weight, performing healthy workouts, along with a balanced diet (such as eating several small portions and drinking water regularly). <a href="http://www.womenshealth.gov/publications/our-publications/fact-sheet/overweight-weight-loss.html">More tips here!</a> </font></p>
+
+<p><font color="orange">  4. If you are considered &#39;Underweight&#39;, by increasing your calorie intake of nutritious food (protein, starch, vegetables, and fat), eating more often, and/or gaining muscle mass through healthy workouts, you can reach a &#39;Normal&#39; BMI. <a href="http://www.womenshealth.gov/publications/our-publications/fact-sheet/overweight-weight-loss.html">More tips here!</a> </font></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2><center>BMI Index By State From <a href="http://www.insureme.com/insurance/bmi-index-state">Insureme.com</a></center></h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <pre><code class="r">TopStates &lt;- c(&quot;CA&quot;, &quot;TX&quot;, &quot;NY&quot;, &quot;FL&quot;, 
+               &quot;IL&quot;, &quot;PA&quot;, &quot;OH&quot;, &quot;GA&quot;, 
+               &quot;MI&quot;, &quot;NC&quot;)
+AvgBMI &lt;- t(as.data.frame(matrix(c(26.31, 
+            26.56, 25.95, 26.3, 26.8,26.79, 
+            26.89, 26.96, 26.97, 26.88), 
+            1, 10)))
+AvgBMI &lt;- as.numeric(AvgBMI)
+TopStates &lt;- as.character(TopStates)
+df &lt;- cbind(TopStates, AvgBMI)
+df &lt;- as.data.frame(df) 
+
+library(ggplot2)
+plot &lt;- ggplot(data=df, aes(x=TopStates,
+                y=AvgBMI)) + geom_bar(
+                fill=&quot;lightblue&quot;,
+                stat=&quot;identity&quot;)
+</code></pre>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="assets/fig/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Tips for Maintaining a Healthy BMI</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><center> From <a href="http://www.ucsfhealth.org/education/tips_for_staying_healthy/">UCSF Medical Center</a> </center></p>
+
+<ol>
+<li>Be physically active for 30 minutes most days of the week. (walking, dancing, and running)</li>
+<li>Eat a well-balanced, low-fat diet with lots of fruits, vegetables and whole grains.<br></li>
+<li>Drink 8 glasses of water daily.</li>
+<li>Stay in touch with family and friends.</li>
+<li>Get enough sleep and rest.</li>
+<li>Talk to your health care provider, if you feel depressed for more than a few days</li>
+<li>Keep your curiosity alive. Lifelong learning is beneficial to your health.</li>
+<li>Don&#39;t smoke, or quit if you do. </li>
+<li>Be involved in your community.</li>
+<li>Forgive those who have hurt you. </center></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Body Mass Index'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='BMI Measures'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Your BMI Assessment'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='<center>BMI Index By State From <a href="http://www.insureme.com/insurance/bmi-index-state">Insureme.com</a></center>'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Tips for Maintaining a Healthy BMI'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
